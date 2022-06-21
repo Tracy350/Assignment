@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+    background-color: blue;
+}
+nav ul li {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    list-style: none;
+    color: white;
+}
+table,th,td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 500px;
+      }
+.tableHead {
+        font-size: 25px;
+      }
+
+
+input:focus{
+    border: 1px solid blue;
+}
+.sbutton{
+    background-color: aqua;
+    width: 100px;
+    height: 50px;
+}

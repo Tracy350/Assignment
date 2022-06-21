@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Room Reservation</title>
+    <link rel="stylesheet" href="assign.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <a href="flower.html"><li>Flower</li></a>
+        <a href="grades.html"><li>Grades</li></a>
+        <a href="pancake.html"><li>Pancake</li></a>
+        <a href="hotel.html"><li>Hotel</li></a>
+        <a href="about.html"><li>Flower</li></a>
+      </ul>
+    </nav>
+   
+    <h2>Hotel Room Reservation</h2>
+    <form action="/register" method="get">
+      <label for="Fname">First Name:</label>
+      <input
+        type="text"
+        name="fname"
+        id="fname"
+        placeholder="eg. Tracy"
+        required
+      /><br /><br />
+      <label for="lname">Last Name:</label>
+      <input
+        type="text"
+        name="lname"
+        id="lname"
+        placeholder="eg. Funkor"
+        required
+      /><br /><br />
+      <label for="oname">Other Name:</label>
+      <input
+        type="text"
+        name="oname"
+        id="oname"
+        placeholder="eg. Esinam"
+        required
+      /><br /><br />
+      <label for="pnumber">Phone Number:</label>
+      <input
+        type="number"
+        name="pnumber"
+        id="pnumber"
+        placeholder="eg. 0501047800"
+        required
+      /><br /><br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="eg.sfsr@sdfed.com"
+        pattern="hvhjehef@dfvf.com"
+        required
+      /><br /><br />
+
+      <label for="adate">Arrival Date:</label>
+      <input
+        type="date"
+        name="adate"
+        id="adate"
+        placeholder="01-04-2000"
+        required
+      /><br /><br />
+      <label for="ddate">Departure Date:</label>
+      <input
+        type="date"
+        name="ddate"
+        id="ddate"
+        placeholder="05-04-2003"
+        required
+      /><br /><br />
+      <label for="nadults">Number of adults</label>
+      <input
+        type="number"
+        name="nadults"
+        id="nadults"
+        placeholder="eg. 5"
+        required
+      /><br /><br />
+      <label for="nchildren">Number of children</label>
+      <input
+        type="number"
+        name="nchildren"
+        id="nchildren"
+        placeholder="eg.5"
+        required
+      /><br /><br />
+    </form>
+    <textarea name="comment" id="comment" cols="30" rows="10"></textarea
+    ><br /><br />
+    <input type="submit" value="Submit" class="sbutton" />
+  </body>
+</html>
